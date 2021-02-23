@@ -1,0 +1,13 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/projectSettingsUpdater.xml
+/.idea.ScreenWorldViewPJ.iml
+/modules.xml
+/contentModel.xml
+# Datasource local storage ignored files
+/../../../../../../../../../../../../:\Users\admin\Desktop\Unity homework\1.Unity Lesson\0. 課程\15. ScreenWorldView世界螢幕視窗座標轉換\ScreenWorldViewPJ\.idea\.idea.ScreenWorldViewPJ\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
