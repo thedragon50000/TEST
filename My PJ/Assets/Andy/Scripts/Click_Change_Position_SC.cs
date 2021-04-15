@@ -32,7 +32,13 @@ public class Click_Change_Position_SC : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
+            Vector3 v3;
+            v3 = Camera.main.ScreenToViewportPoint(Input.mousePosition);
             target.transform.position = Input.mousePosition;
+            Debug.Log(Input.mousePosition);
+            Debug.Log(v3);
+            // target.transform.position = new Vector3(v3.x,v3.y,0);
+            // target.transform.position = v3;
 
             isDragging = true;
 
